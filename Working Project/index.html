@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Information</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          placeholder="Enter a city"
+          autocomplete="off"
+          id="search-input"
+        />
+        <input type="submit" value="Search" />
+        <input type="submit" value="&#x1f4cc;" id="weatherButton" />
+      </form>
+
+      <section class="main">
+        <section class="cityTemp">
+          <h2 id="Location">Location</h2>
+          <div class="emoji">☀</div>
+
+          <p class="tempToday">
+            <span id="todayTemp"></span> <a href="#" id="tempUnitC">°C|</a
+            ><a href="#" id="tempUnitF">°F</a>
+          </p>
+        </section>
+
+        <section class="info">
+          <h3 id="date"></h3>
+          <p class="tempDescribe">Clear</p>
+        </section>
+
+        <section class="right">
+          <p>
+            Precipitation: <br />
+            Wind:<br />
+            Humidity:
+          </p>
+        </section>
+      </section>
+      <div class="cards">
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Day</h5>
+                <p class="card-text-emoji">☁</p>
+                <p class="card-text-">10°C</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

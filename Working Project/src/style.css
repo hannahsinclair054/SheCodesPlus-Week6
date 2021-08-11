@@ -1,0 +1,123 @@
+.container {
+  max-width: 625px;
+  margin: 10px auto;
+  padding: 10px 10px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgb(199, 199, 199);
+  box-shadow: 1px 1px 1px 1px rgb(199, 199, 199);
+}
+
+section.main {
+  max-width: 325px;
+  max-height: 300px;
+  margin: 5px auto;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: center;
+}
+
+section.cityTemp {
+  max-width: 200px;
+  max-height: 300px;
+  margin: 10px auto;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: center;
+}
+
+section.info {
+  max-width: 190px;
+  max-height: 100px;
+  margin-top: -150px;
+  margin-left: -40px;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: left;
+}
+section.right {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: -90px;
+  margin-right: -5px;
+  padding: 4px 6px;
+  border-radius: 16px;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: right;
+
+  float: right;
+}
+
+p.tempToday {
+  text-align: center;
+  font-size: 38px;
+}
+span.todayTemp {
+  font-weight: 800px;
+}
+#tempUnitC,
+#tempUnitF {
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+  text-transform: none;
+  text-decoration: none;
+}
+#tempUnitC:hover,
+#tempUnitF:hover {
+  text-decoration: underline;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 auto;
+}
+p.tempDescribe {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.1;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.col {
+  width: 60px;
+  height: 90px;
+  padding: 4px;
+}
+.card-body {
+  padding: 4px 4px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+h5.card-title {
+  font-size: 14px;
+}
+
+p.card-text-emoji {
+  font-size: 30px;
+}
+
+p .text-muted {
+  font-size: 1px;
+}
